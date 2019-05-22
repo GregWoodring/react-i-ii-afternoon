@@ -1,0 +1,80 @@
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  background-color: rgb(72, 194, 243);
+  height: 7vh
+}
+
+.header > h4{
+  margin-left: 3em;
+}
+
+.body{
+  background-color: rgb(17, 29, 29);
+  height: 93vh
+}
+
+.display{
+  background-color: #fff;
+  margin: 6em 6em 0 6em;
+  position: relative;
+  padding: 2em;
+}
+
+.bold{
+  font-weight: bold ;
+  margin-right: .25em
+}
+
+.counter{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: .5em;
+  font-size: 1.75em;
+}
+
+.name{
+  border-bottom: rgb(72, 194, 243) 3px solid;
+  width: 8em;
+  font-size: 2em;
+}
+
+.favMovies{
+  margin-top: 3em;
+  margin-bottom: 0
+}
+
+.movList{
+  margin-top: .25em;
+  margin-left: 1.5em;
+}
+.movList >li{
+  margin: .5em 0
+}
+
+.buttons{
+  display: flex;
+  margin: 0 6em;
+  justify-content: space-between;
+}
+
+.incBtn{
+  color: #fff;
+  background-color: none;
+  border: none;
+  font-weight: bold;
+}
+
+.spcBtn > button {
+  margin: .5em;
+  background-color: rgb(72, 194, 243);
+  border-radius: 25px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  padding: .25em .5em;
+}
